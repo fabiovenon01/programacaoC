@@ -10,23 +10,28 @@ int main (){
     Pós-Decremento a--
     */
 
-    int numero1 = 1; resultado;
+    int numero1 = 1, resultado;
 
     printf("Antes incremento: %d\n", numero1);
-    // numero1 = numero1 + 1
-    // numero1 += 1
-    // pos incremento:
-    // resultado = numero1
-    // numero++
+
+    //numero1 = numero1 + 1;
+    //numero1 += 1; 
+    //Pos incremento > resultado = numero1; > numero++;
     resultado = numero1++;
     //printf("Apos incremento: %d\n", numero1);
-    printf("Apos Pós-incremento - Numero 1: %d - Resultado: %d\n, numero1, resultado");
+    printf("Apos Pos-incremento - Numero 1: %d - Rsultado: %d\n", numero1, resultado);
+
+    resultado = ++numero1;
+    printf("Apos Pre-incremento - Numero 1: %d - Rsultado: %d\n", numero1, resultado);
 
 
-    //numero1 = numero -1
-    //numero1 -= 1
-    numero1--;
-    printf("Apos decremento: %d\n", numero1);
-
+    //numero1 = numero1 - 1;
+    //numero1 -= 1;
+    //numero1--;
+    //printf("Apos decremento: %d\n", numero1);
+    resultado = numero1--;
+    printf("Apos Pos-decremento - Numero 1: %d - Rsultado: %d\n", numero1, resultado);
+    resultado = --numero1;
+    printf("Apos Pre-decremento - Numero 1: %d - Rsultado: %d\n", numero1, resultado);
 
 }
