@@ -19,10 +19,10 @@ int main (){
     //Pos incremento > resultado = numero1; > numero++;
     resultado = numero1++;
     //printf("Apos incremento: %d\n", numero1);
-    printf("Apos Pos-incremento - Numero 1: %d - Rsultado: %d\n", numero1, resultado);
+    printf("Apos Pos-incremento - Numero 1: %d - Resultado: %d\n", numero1, resultado);
 
     resultado = ++numero1;
-    printf("Apos Pre-incremento - Numero 1: %d - Rsultado: %d\n", numero1, resultado);
+    printf("Apos Pre-incremento - Numero 1: %d - Resultado: %d\n", numero1, resultado);
 
 
     //numero1 = numero1 - 1;
@@ -30,8 +30,8 @@ int main (){
     //numero1--;
     //printf("Apos decremento: %d\n", numero1);
     resultado = numero1--;
-    printf("Apos Pos-decremento - Numero 1: %d - Rsultado: %d\n", numero1, resultado);
+    printf("Apos Pos-decremento - Numero 1: %d - Resultado: %d\n", numero1, resultado);
     resultado = --numero1;
-    printf("Apos Pre-decremento - Numero 1: %d - Rsultado: %d\n", numero1, resultado);
+    printf("Apos Pre-decremento - Numero 1: %d - Resultado: %d\n", numero1, resultado);
 
 }
