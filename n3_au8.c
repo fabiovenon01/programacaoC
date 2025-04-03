@@ -6,7 +6,7 @@ int main () {
 
     // a>b - maior que
     // a<b - menor que
-    // a=b - maior ou igual
+    // a>=b - maior ou igual
     // a<=b - menor ou igual
     // a==b - igual a
     // a!=b - diferente de
